@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+.main {
+    height: 100vh;
+    background-color: rgb(89, 90, 101);
+    background-size: cover;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    padding: 30px 12% 20px;
+    font-size: 25px;
+}
+
+.nav-bar p,
+.nav-bar i {
+    cursor: pointer;
+}
+
+.home {
+    display: flex;
+    padding: 12%;
+    flex-wrap: wrap;
+}
+
+.home .img {
+    flex-basis: 60%;
+    padding: 10px 50px;
+}
+
+.home .form {
+    flex-basis: 25%;
+    margin: auto 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: Rubik, serif;
+    color: #fff;
+}
+
+.form h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.form input {
+    margin: 10px 5px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.form input:focus,
+form button:hover,
+.btn button:hover,
+.input-content input:focus,
+.card-sp button:hover,
+.input-content button:hover,
+.review-card button:hover,
+.contact-form form label input:focus,
+.contact-form form textarea:focus {
+    outline: 1px solid rgb(154, 204, 245);
+    box-shadow: 0 0 10px 4px rgba(154, 204, 245, 0.5);
+    cursor: pointer;
+}
+
+.form button,
+.btn button {
+    width: 35%;
+    margin: 10px;
+    padding: 8px 12px;
+    background-color: rgba(67, 88, 141, 0.977);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form p {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.advantage,
+.features {
+    height: auto;
+    padding: 4rem 10%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col {
+    margin: 60px 45px;
+    text-align: center;
+}
+
+.col h1 i {
+    color: gray;
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.col h1 {
+    color: rgb(27, 27, 27);
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.col p {
+    font-size: 15px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button {
+    width: 10%;
+}
+
+.features {
+    background-color: rgb(168, 174, 174);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 10%;
+}
+
+.menu .img2 {
+    flex-basis: 65%;
+    margin: 10px 20px;
+}
+
+.img2 img {
+    width: 100%;
+}
+
+.fe-imgs {
+    margin: 10px 20px;
+}
+
+.fe-imgs .fe-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    padding: 3rem 7rem;
+    height: auto;
+    background-color: rgb(149 147 157 / 52%);
+}
+
+.row-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row-1 i {
+    margin: auto 40px;
+    font-size: 20px;
+}
+
+.card-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card,
+.card-sp {
+    flex-basis: 35%;
+    background-color: #fff;
+    margin: 20px;
+    padding: 4rem;
+    text-align: center;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 0 15px 8px rgba(143, 143, 143, 0.5);
+}
+
+.card-sp {
+    flex-basis: 30%;
+    height: 22rem;
+    position: relative;
+    z-index: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card h1 {
+    margin-bottom: 20px;
+}
+
+.card-sp .image {
+    margin-bottom: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    position: relative;
+}
+
+.card-sp .image i {
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+    left: -26px;
+}
+
+.card-sp h1 {
+    margin-bottom: 20px;
+}
+
+.card-sp button {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(67, 88, 141, 0.977);
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.offers {
+    height: 28vh;
+    background-color: rgb(89, 90, 101);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Rubik, serif;
+    color: #fff;
+    text-align: center;
+}
+
+.offers p {
+    font-size: 15px;
+    margin: 10px auto;
+}
+
+.input-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-content input {
+    width: 20%;
+    margin-right: 10px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.input-content button {
+    background-color: rgba(67, 88, 141, 0.977);
+    padding: 8px 15px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.team,
+.review {
+    padding: 3rem 4rem;
+    height: auto;
+}
+
+.team-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px;
+}
+
+.team-img,
+.team-description {
+    flex-basis: 50%;
+    background-color: rgb(149 147 157 / 52%);
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.team-description {
+    background-color: rgba(199, 198, 198, 0.132);
+    flex-direction: column;
+    padding: 3rem 5rem;
+    font-family: Rubik, serif;
+}
+
+.team-description h1 {
+    font-size: 30px;
+    margin-bottom: 14px;
+}
+
+.team-description p {
+    margin: 0 30px 25px 0;
+    font-size: 22px;
+}
+
+.team-description .p2 {
+    font-size: 18px;
+}
+
+.gallary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallary-imgs {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(120, 119, 125, 0.52);
+}
+
+.gallary-container {
+    flex-basis: 50%;
+    background-color: rgba(176, 176, 176, 0.132);
+    padding: 1.3rem 5rem;
+}
+
+.gallary-content h1 {
+    margin: 20px 0px;
+    font-size: 30px;
+}
+
+.gallary-content p {
+    font-size: 18px;
+}
+
+.gallary-cards {
+    margin: 30px 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallary-card {
+    flex-basis: 40%;
+    margin: 20px;
+    text-align: center;
+}
+
+.review-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 10px;
+}
+
+.review-card {
+    flex-basis: 33.333333333%;
+    border-radius: 10px;
+    margin: 0 50px;
+    padding: 2rem 3rem;
+    box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.5);
+}
+
+.review-card h1,
+.review-card p {
+    margin-bottom: 15px;
+}
+
+.review-card h2 span {
+    font-size: 40px;
+}
+
+.review-card h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.review-card button {
+    width: 100%;
+    height: 38px;
+    color: #fff;
+    background-color: rgba(67, 88, 141, 0.977);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.offers-an{
+    height: 35vh;
+}
+
+.offer-container {
+    background-color: #fff;
+    color: #000;
+    padding: 1.5rem 2rem;
+    border-radius: 5px;
+}
+
+.offer-container .input-content input {
+    width: 75%;
+    border: 1px solid rgba(154, 204, 245, 0.5);
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    height: 500px;
+}
+
+.frame-map {
+    flex-basis: 50%;
+    height: 100%;
+}
+
+.contact-form {
+    flex-basis: 50%;
+    height: 100%;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 8rem;
+    text-align: start;
+}
+
+.contact-form form h1 {
+    margin-bottom: 30px;
+}
+
+.contact-form form label {
+    margin: 8px;
+}
+
+.contact-form form label input {
+    width: 70%;
+    padding: 5px 20px;
+    border: 1px solid rgba(154, 204, 245, 0.5);
+    border-radius: 5px;
+}
+
+.contact-form form textarea {
+    width: 82%;
+    margin: 20px auto;
+    resize: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 1px solid rgba(154, 204, 245, 0.5);
+}
+
+.contact-form form button {
+    width: 25%;
+    padding: 8px 10px;
+    margin-left: 20px;
+    background-color: rgba(67, 88, 141, 0.977);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.footer{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(89, 90, 101);
+    color: #fff;
+}
+
+.footer p{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.icons i{
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
